@@ -1,0 +1,161 @@
+.body {
+  background-image:
+    url(website-photos/Glasblume6.JPEG),
+    url(website-photos/Glasblume1.JPEG),
+    url(website-photos/Glasblume2.JPEG),
+    url(website-photos/Glasblume3.JPEG);
+  background-size: 100%;
+  background-blend-mode: soft-light;
+  margin: 0%;
+  filter: hue-rotate(90deg);
+}
+
+.glasblume-logo {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
+  filter: hue-rotate(260deg) 
+  saturate(150%) 
+  contrast(150%) 
+  grayscale(55%) 
+  drop-shadow(0px 10px 10px rgb(0, 0, 0));
+}
+.glasblume-logo:hover {
+  filter: hue-rotate(260deg) 
+  saturate(150%) 
+  contrast(200%) 
+  grayscale(50%) 
+  drop-shadow(0px 10px 10px rgba(64, 255, 0, 0.22));
+}
+
+#SOME-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instagram-logo {
+  width: 60px;
+  transition-duration: 0.1s;
+}
+.instagram-logo:hover {
+  transform: scale(1.05);
+  transform-origin: right;
+  cursor: pointer;
+}
+.tiktok-logo {
+  width: 60px;
+  padding-left: 3px;
+  transition-duration: 0.1s;
+}
+.tiktok-logo:hover {
+  transform: scale(1.05);
+  transform-origin: left;
+  cursor: pointer;
+}
+
+.first-row, .second-row, .third-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-row {
+  height: 300px;
+  display: flex;
+  align-items: baseline;
+  justify-content:baseline;
+}
+
+.soundcloud-links {
+  text-decoration: none;
+}
+
+.example-1, .example-2, .example-3, .example-4, .example-5, .example-6 {
+  width: 690px;
+  height: 400px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.example-1, .example-3, .example-5 {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.example-2, .example-4, .example-6 {
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.glasblume1, .glasblume2, .glasblume3, .glasblume4, .glasblume5, .glasblume6 {
+  width: 500px;
+  height: 280px;
+  object-fit: cover;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: sepia(100%) hue-rotate(80deg);
+}
+.glasblume1 {
+  filter: sepia(0%) hue-rotate(0deg);
+}
+.glasblume1:hover {
+  filter: brightness(97%) sepia(0%) hue-rotate(0deg);
+}
+.glasblume2 {
+  filter: brightness(90%) sepia(100%) hue-rotate(80deg) contrast(120%);
+}
+.glasblume2:hover {
+  filter: brightness(97%) sepia(100%) hue-rotate(80deg) contrast(120%);
+}
+.glasblume5 {
+  filter: brightness(95%) sepia(60%) hue-rotate(70deg);
+}
+.glasblume5:hover {
+  filter: brightness(90%) sepia(60%) hue-rotate(70deg);
+}
+.glasblume3:hover, .glasblume4:hover, .glasblume6:hover {
+  filter: brightness(95%) sepia(100%) hue-rotate(80deg);
+}
+
+.example-link-1, .example-link-2, .example-link-3, .example-link-4, .example-link-5, .example-link-6 {
+  border: 0px;
+  font-size: 50px;
+  font-family: caveat;
+  display: inline-block;
+  color: rgb(235, 235, 235);
+  text-shadow: rgb(0, 0, 0) 4px 4px;
+  background-color: rgba(0, 0, 0, 0);
+  transition-duration: 0.15s;
+}
+
+.example-link-1:hover, .example-link-2:hover, .example-link-3:hover, .example-link-4:hover, .example-link-5:hover, .example-link-6:hover {
+  cursor: pointer;
+  transform: scale(1.02, 0.98);
+  filter: brightness(105%);
+}
+
+.glasblumeeffect1 {
+  margin-top: 20px;
+  width: 1440px;
+  transition: 0.5s;
+  filter: hue-rotate(260deg) 
+  saturate(150%) 
+  contrast(150%) 
+  grayscale(55%) 
+  drop-shadow(0px 10px 10px rgb(0, 0, 0));
+}
+
+.glasblumeeffect1:hover {
+  filter: hue-rotate(260deg) 
+  saturate(150%) 
+  contrast(200%) 
+  grayscale(50%) 
+  drop-shadow(0px 10px 10px rgba(64, 255, 0, 0.22));
+}
+
+:root { scroll-behavior: smooth; }
